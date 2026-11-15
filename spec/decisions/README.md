@@ -16,3 +16,5 @@
 | ADR | タイトル | status |
 |---|---|---|
 | [0001](ADR-0001-record-architecture-decisions.md) | ADR を用いて判断を記録する | accepted |
+| [0002](ADR-0002-pwa-on-github-pages.md) | GitHub Pages で配信するビルド不要の PWA にする | accepted |
+| [0003](ADR-0003-data-in-private-github-repo.md) | 予定データは GitHub 非公開リポジトリの data.json に置き、レコード単位でマージする | accepted |

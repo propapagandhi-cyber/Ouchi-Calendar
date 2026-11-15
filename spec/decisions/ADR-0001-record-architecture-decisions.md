@@ -5,7 +5,7 @@ status: accepted        # proposed | accepted | superseded | deprecated
 scope: process
 supersedes:
 superseded_by:
-date: <YYYY-MM-DD>
+date: 2026-11-15
 ---
 
 ## Context（背景・前提）
