@@ -13,18 +13,24 @@
 
 ---
 
-## 1. アプリを公開する（GitHub Pages）
+## 1. アプリを公開する（GitHub Pages） — ✅ 実施済み（2026-11-15）
 
-> Claude Code に「GitHub に公開して」と頼めば 1-1〜1-3 を代行できる。
+- 公開リポジトリ：https://github.com/propapagandhi-cyber/Ouchi-Calendar
+- **アプリの URL：https://propapagandhi-cyber.github.io/Ouchi-Calendar/**
+
+やり直す場合の手順：
 
 1-1. GitHub に**公開**リポジトリ `Ouchi-Calendar` を作り、このリポジトリを push する。
 1-2. リポジトリの **Settings → Pages → Build and deployment → Source** を **GitHub Actions** にする。
 1-3. `main` に push すると Actions（`.github/workflows/pages.yml`）がテスト → `impl/web/` を配信する。
-     公開 URL：`https://<GitHubユーザー名>.github.io/Ouchi-Calendar/`
 
-公開されるのはアプリのプログラムだけで、予定データは含まれない。
+公開されるのはアプリのプログラム（`impl/web/`）だけで、予定データは含まれない。
 
-## 2. 予定データ用の非公開リポジトリを作る
+## 2. 予定データ用の非公開リポジトリを作る — ✅ 実施済み（2026-11-15）
+
+- 非公開リポジトリ：https://github.com/propapagandhi-cyber/Ouchi-Calendar-data（README 付き・`main`）
+
+やり直す場合の手順：
 
 2-1. GitHub で **New repository** → 名前 `Ouchi-Calendar-data`、**Private** を選ぶ。
 2-2. **「Add a README file」にチェック**して作成する（空のリポジトリだと保存できないため）。
