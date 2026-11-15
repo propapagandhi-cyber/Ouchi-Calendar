@@ -32,7 +32,7 @@
 | `spec/interface/` | データ形式と GitHub 同期の約束 |
 | `spec/decisions/` | ADR — 判断の履歴 |
 | `impl/web/` | アプリ本体（GitHub Pages で配信される静的ファイル） |
-| `impl/tests/` | ロジックのテスト（`node --test impl/tests/`） |
+| `impl/tests/` | ロジックのテスト（`node --test impl/tests/*.test.mjs`） |
 | `impl/tools/` | アイコン生成などの補助スクリプト |
 | `docs/` | セットアップ手順・使い方 |
 | `.github/workflows/` | GitHub Pages 配信 |

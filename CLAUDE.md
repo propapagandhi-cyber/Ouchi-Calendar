@@ -77,7 +77,7 @@
 ## ビルド・実行・テスト
 
 - ローカル起動：`python -m http.server 8080 -d impl/web` → `http://localhost:8080/`（`.claude/launch.json` に `web` として登録済み）
-- テスト：`node --test impl/tests/`
+- テスト：`node --test impl/tests/*.test.mjs`
 - アイコン再生成：`python impl/tools/make_icons.py`
 - `impl/web/` にファイルを足したら `impl/web/sw.js` の `ASSETS` と `CACHE` 版を更新する。
 
