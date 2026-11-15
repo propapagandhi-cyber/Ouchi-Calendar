@@ -3,6 +3,8 @@
 家族（ママ・長男・次男）の予定とやることを、スマホで大きく見やすく共有するシンプルな家族カレンダー（PWA）。
 アプリ本体は GitHub Pages、予定データは GitHub の非公開リポジトリに保存する。`spec/`（仕様＝SSOT）と `impl/`（実装）を統合した mono-repo。
 
+**アプリ：https://propapagandhi-cyber.github.io/Ouchi-Calendar/** （初期設定は [docs/setup.md](docs/setup.md)）
+
 ## 読む順序
 
 1. `CLAUDE.md` — ルール・技術スタック・Git運用（Claude Code は最初にこれを読む）

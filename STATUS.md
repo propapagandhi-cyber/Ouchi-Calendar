@@ -22,6 +22,8 @@
 | データ保存先 | GitHub 非公開リポジトリ `Ouchi-Calendar-data` の `data.json`（ADR-0003） | 2026-11-15 |
 | 配信 | GitHub Pages・ビルドなし PWA（ADR-0002） | 2026-11-15 |
 | v0.2 実装 | 月・週・日・やること／くりかえし＋例外（お休み・この日だけ・この日から先・お休み期間・祝日）／GitHub 同期／元に戻す／文字サイズ／バックアップ | 2026-11-15 |
+| 公開 URL | https://propapagandhi-cyber.github.io/Ouchi-Calendar/ （公開リポジトリ `propapagandhi-cyber/Ouchi-Calendar`、Actions で配信） | 2026-11-15 |
+| データ用リポジトリ | `propapagandhi-cyber/Ouchi-Calendar-data`（Private・README 付き・`main`） | 2026-11-15 |
 
 ### 検証済（v0.2）
 
@@ -32,8 +34,8 @@
 
 ### 直近未解決（次セッションでここから再開）
 
-1. **GitHub に公開**：公開リポジトリ `Ouchi-Calendar` 作成 → push → Pages（Source: GitHub Actions）を有効化（`docs/setup.md` 手順 1）。
-2. **データ用リポジトリとトークン**（パパ作業）：`Ouchi-Calendar-data`（Private・README 付き）→ Fine-grained token → 接続コード（手順 2〜4）。
+1. ~~GitHub に公開・データ用リポジトリ作成~~（2026-11-15 済。配信 Actions 成功、公開 URL で表示・コンソールエラーなしを確認）
+2. **トークンと接続コード**（パパ作業）：Fine-grained token（`Ouchi-Calendar-data` のみ・Contents 読み書き）→ PC で接続コードを作って接続（`docs/setup.md` 手順 3〜4）。ここで実 GitHub API の同期を確認する（未確定 #1）。
 3. **ママのスマホ設定**（手順 5）と実機確認：ホーム画面に追加 → 全画面起動、機内モードで起動・追加 → 復帰後に同期（B-5 Acceptance 2）、Android の戻るボタン（B-5 Acceptance 1）。
 4. 1〜2 週間使ってもらい、迷った点・欲しい機能を聞く → フェーズ 2 のスコープを決める。
 
